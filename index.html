@@ -23,27 +23,27 @@
         <label for="new-task" class="caption">Add Item</label>
         <div class="task-row">
           <input id="new-task"class="task input-text" type="text">
-          <button id="all-button">Add</button>
+          <button id="all-button" class="add__button">Add</button>
         </div>
       </article>
       <article>
         <h3 class="caption">Todo</h3>
         <ul id="incomplete-tasks">
-            <li>
+            <li class="incomplete-tasks__item">
               <input type="checkbox">
               <label class="task">Pay Bills</label>
               <input type="text" class="task input-text">
-              <button class="edit" id="all-button">Edit</button>
-              <button class="delete" id="all-button">
+              <button class="edit edit__button" id="all-button">Edit</button>
+              <button class="delete delete__button" id="all-button">
                 <img src="./remove.svg" alt="DeletePointer">
               </button>
             </li>
-            <li class="edit-mode">
+            <li class="edit-mode incomplete-tasks__item">
               <input type="checkbox">
               <label class="task">Go Shopping</label>
               <input type="text" value="Go Shopping" class="task input-text">
-              <button class="edit" id="all-button">Save</button>
-              <button class="delete" id="all-button">
+              <button class="edit edit__button" id="all-button">Save</button>
+              <button class="delete delete__button" id="all-button">
                 <img src="./remove.svg" alt="DeletePointer">
               </button>
             </li>
@@ -52,12 +52,12 @@
       <article>
         <h3 class="caption">Completed</h3>
         <ul id="completed-tasks">
-            <li>
+            <li class="completed-tasks__item">
               <input type="checkbox" checked>
               <label class="task">See the Doctor</label>
               <input type="text" class="task input-text">
-              <button class="edit" id="all-button">Edit</button>
-              <button class="delete" id="all-button">
+              <button class="edit edit__button" id="all-button">Edit</button>
+              <button class="delete delete__button" id="all-button">
                   <img src="./remove.svg" alt="DeletePointer">
               </button>
             </li>
